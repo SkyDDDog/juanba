@@ -1,0 +1,202 @@
+.tiao{
+    height: 12%;
+ }
+ .tiao > div{
+      padding-left: 38px;
+ }
+ .title2{
+     height: 14px;
+     font-family: Inter-SemiBold;
+     font-size: 14px;
+     font-weight: normal;
+     font-stretch: normal;
+     line-height: 14px;
+     letter-spacing: 0px;
+     color: #505050;
+     margin-top: 12px;
+     font-weight: bold;
+ }
+ .msg{
+     height: 14px;
+     font-family: Inter-Regular;
+     font-size: 14px;
+     font-weight: normal;
+     font-stretch: normal;
+     line-height: 14px;
+     letter-spacing: 0px;
+     color: #222222;
+     padding-top: 18px;
+     padding-bottom: 18px;
+ }
+ .line{
+     width: 100%;
+             height: 1px;
+     background-image: linear-gradient(
+         #ecedee, 
+         #ecedee), 
+     linear-gradient(
+         #dbdde0, 
+         #dbdde0);
+     background-blend-mode: normal, 
+         normal;
+ }
+ .nav3{
+     height: 6%;
+     font-family: Inter-Regular;
+     font-size: 14px;
+     font-weight: normal;
+     font-stretch: normal;
+     line-height: 14px;
+     letter-spacing: 0px;
+     color: #222222;
+     padding-left: 38px;
+     padding-top: 2%;
+ }
+ .right{
+     width: 62%;
+     background-color: #fff;
+     height: 87%;
+     margin-left: 1%;
+    overflow-y:auto;
+    overflow-x: hidden;
+ }
+ .box{
+     width: 100%;
+     height: 100%;
+ }
+ .header{
+     width: 100%;
+ }
+ .content{
+     height: 90.5%;
+     width: 100%;
+     background-color: #FAFAFA;
+     padding-top: 2%;
+ }
+ .left{
+ width: 11%;
+ margin-left: 13%;
+ background-color: #fff;
+ height: 87%;
+ }
+ .title{
+     height: 14px;
+     font-size: 14px;
+     line-height: 14px;
+     letter-spacing: 0px;
+     color: #222222;
+     padding-top: 24px;
+     margin-left: 24px;
+ }
+ .jubao,.user1{
+     width: 140px;
+     height: 40px;
+     background-color: #ecf0f9;
+     border-radius: 8px;
+      margin-left: 24px;
+      margin-top: 20px;
+ }
+ .tu1,.tu2,.tu3,.tu4{
+     width: 21px;
+     height: 20px;
+     margin-left: 12px;
+     margin-top: 10px;
+ }
+ .wenzi{
+     height: 40px;
+     font-family: Inter;
+     font-size: 14px;
+     font-weight: normal;
+     font-stretch: normal;
+     line-height: 40px;
+     letter-spacing: 0px;
+     color: #2b47b2;
+     margin-left: 5px;
+ }
+ .wenzi2{
+      height: 40px;
+     font-family: Inter;
+     font-size: 14px;
+     font-weight: normal;
+     font-stretch: normal;
+     line-height: 40px;
+     letter-spacing: 0px;
+     color: #2c2c2c;
+     margin-left: 5px;
+ }
+ .user,.jubao1{
+      width: 140px;
+     height: 40px;
+     background-color: #FFFFFF;
+     border-radius: 8px;
+      margin-left: 24px;
+      margin-top: 20px;
+ }
+
+
+ .notice{
+     width: 100%;
+     height: 100%;
+     .notice-head {
+         height: 10%;
+         width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         font-size: 18px;
+         color: #000000;
+         border-bottom: 1px solid #ccc;
+     }
+     .notice-content {
+         height: 55%;
+         width: 100%;
+         overflow-y: scroll;
+         box-sizing: border-box;
+         padding: 20px;
+         >div {
+             margin-bottom: 20px;
+         }
+         .outher {
+             display: flex;
+             >img {
+                 width: 40px;
+                 height: 40px;
+                 border-radius: 50%;
+                 overflow: hidden;
+                 background-color: #ccc;
+                 margin-right: 15px;
+             }
+             >div {
+                 background-color: rgb(64, 234, 231);
+                 min-height: 40px;
+                 max-width: 300px;
+                 border-radius: 0 15px 15px 15px;
+                 box-sizing: border-box;
+                 padding: 10px 15px;
+                 line-height: 20px;
+             }
+         }
+         .mys {
+             justify-content: flex-end !important;
+             >img {
+                 margin: 0 0 0 15px !important;
+             }
+             >div {
+                border-radius: 15px 0 15px 15px !important; 
+                background-color: #3058f7cc; 
+                color: #ffffff;
+             }
+         }
+     }
+     .message-view {
+         height: 30%;
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+         align-items: flex-end;
+         button {
+             width: 100px;
+             margin-top: 15px;
+         }
+     }
+ }
